@@ -60,12 +60,20 @@ var BgGenerator = React.createClass({
 						<div className='color-block__color-round' style={{background: this.state.colorBg2}}></div>
 						<span className='color-block__color-text'>{this.state.colorBg2}</span>
 					</div>
-
+					<div className='links'>
+						<hr />
+						<span className='links__block'>
+							Made by <a href="https://github.com/smyzin" target="_blank" title="GitHub | @smyzin" className="links__a"><i aria-hidden="true" className="fa fa-github-alt fa-lg bottom__icon"></i> smyzin.</a>
+							 <a href="https://smyzin.github.io/" target="_blank" title="Portfolio" className="links__a"><i aria-hidden="true" className="fa fa-rocket fa-lg"></i> Portfolio</a> page.
+						</span>
+						<span className='links__block'>
+							Other works on <a href="" target="_blank" title="CodePen | @therealnorman" className="links__a"><i aria-hidden="true" className="fa fa-codepen fa-lg"></i> CodePen</a>
+						</span>
+					</div>
 				</div>
 			</div>
 		);
 	}
-
 });
 
 ReactDOM.render(<BgGenerator/>, document.getElementById('app'));
