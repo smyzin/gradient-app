@@ -1,7 +1,6 @@
 @import 'https://fonts.googleapis.com/css?family=Lato:100,300,400';
 
 body {
-  overflow: hidden;
   background: #fff;
   font-family: 'Lato', sans-serif;
   font-weight: 100;
@@ -86,11 +85,11 @@ body {
 .footer {
   position: absolute;
   width: 99.5%;
-  height: 80px;
+  height: 131px;
   display: block;
   padding: 5px 5px;
   bottom: 0px;
-  background: rgba(0,0,0,0.7);
+  background: rgba(0,0,0,0.5);
   box-sizing: content-box;
 }
 
@@ -120,7 +119,7 @@ body {
   position: inherit;
   background: none !important;
   border: none !important;
-  margin: 20px 0 15px 0;
+  margin: 10px 0 15px 0;
   left: calc(50% - 122px);
 }
 
@@ -139,7 +138,7 @@ body {
 .color-block {
   vertical-align: middle;
   position: inherit;
-  padding: 5px 5px;
+  padding: 0px 5px;
   box-sizing: content-box;
   display: inline-block;
   left: calc(50% - 70px);
@@ -162,4 +161,34 @@ body {
   height: 30px;
   box-sizing: content-box;
   border-radius: 100%;
+}
+
+.links {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  bottom: -70px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.links hr {
+  width: 55%;
+  margin: 0px auto !important;
+}
+
+.links__block {
+  display: block;
+  padding: 5px 0;
+}
+
+.links__a {
+  text-decoration: none;
+  color: #d2d2d2;
+  margin: 0 5px;
+}
+
+.links__a:hover {
+  color: #08d4f2;
 }
