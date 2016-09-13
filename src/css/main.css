@@ -1,0 +1,165 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:100,300,400';
+
+body {
+  overflow: hidden;
+  background: #fff;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#app {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  box-sizing: content-box;
+}
+
+.body-cont {
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  box-sizing: padding-box;
+}
+
+.header {
+  position: relative;
+  width: 99.5%;
+  display: block;
+  padding: 5px 5px;
+  background: rgba(0,0,0,0.5);
+  margin: 0 auto;
+  box-sizing: content-box;
+}
+
+.header__text {
+  position: absolute;
+  top: -70px;
+  width: 510px;
+  height: 70px;
+  resize: none;
+  font-weight: 300 !important;
+  font-size: 15px;
+  background: none;
+  outline: none;
+  border: none;
+  z-index: 5;
+  opacity: 0;
+}
+
+.header__text-h1 {
+  z-index: 10;
+  display: inline-block;
+  color: #fff;
+  margin-right: 17px;
+  font-weight: 300 !important;
+  font-size: 22px;
+}
+
+.header__btn {
+  z-index: 10;
+  position: inherit;
+  display: inline-block;
+  margin-top: -9px;
+  margin-bottom: 5px;
+  background: none;
+  padding: 12px 55px;
+  color: #cfcfcf;
+  font-size: 17px;
+  border: 2px solid #08d4f2;
+  border-radius: 15px;
+}
+
+.header__btn span {
+  font-weight: 300 !important;
+}
+
+.header__btn:hover {
+  cursor: pointer;
+  background: #06a3bb;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.footer {
+  position: absolute;
+  width: 99.5%;
+  height: 80px;
+  display: block;
+  padding: 5px 5px;
+  bottom: 0px;
+  background: rgba(0,0,0,0.7);
+  box-sizing: content-box;
+}
+
+.footer__msg {
+  position: absolute;
+  background: rgba(0,0,0,0.15);
+  display: none;
+  width: 100px;
+  height: 35px;
+  top: -40px;
+  left: calc(50% - 50px);
+  border-radius: 5px;
+  border: 1px solid rgba(0,0,0,0.35);
+}
+
+.footer__msg_copy {
+  position: absolute;
+  display: block;
+  width: 100%;
+  font-size: 28px;
+  color: #fff;
+  text-align: center;
+}
+
+.footer__button-icon {
+  display: inline-block;
+  position: inherit;
+  background: none !important;
+  border: none !important;
+  margin: 20px 0 15px 0;
+  left: calc(50% - 122px);
+}
+
+.footer__button-icon:hover {
+  cursor: pointer;
+}
+
+.footer__button-icon:hover i {
+  color: #fff;
+}
+
+.footer__button-icon i {
+  color: #cfcfcf;
+}
+
+.color-block {
+  vertical-align: middle;
+  position: inherit;
+  padding: 5px 5px;
+  box-sizing: content-box;
+  display: inline-block;
+  left: calc(50% - 70px);
+}
+
+.color-block__color-text {
+  vertical-align: middle;
+  display: inline-block;
+  color: #fff;
+  margin-left: 11px;
+  font-weight: 400 !important;
+  font-size: 22px;
+  width: 95px;
+}
+
+.color-block__color-round {
+  vertical-align: middle;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  box-sizing: content-box;
+  border-radius: 100%;
+}
